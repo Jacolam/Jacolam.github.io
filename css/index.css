@@ -1,0 +1,20 @@
+.tag-line {
+  color: black; }
+
+.header-img {
+  width: 100vw; }
+
+.about {
+  text-align: center; }
+
+.product {
+  height: 50vh; }
+  .product.odd {
+    background: #FFFFFF; }
+  .product.even {
+    background: #F8F8FF; }
+
+.content {
+  text-align: center; }
+
+/*# sourceMappingURL=index.css.map */

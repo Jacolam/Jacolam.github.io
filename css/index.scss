@@ -1,3 +1,25 @@
+.tag-line{
+  color: black;
+}
 
+.header-img{
+  width:100vw;
+}
 
-/*# sourceMappingURL=index.scss.map */
+.about{
+  text-align: center;
+}
+
+.product{
+  height:50vh;
+  &.odd{
+    background: #FFFFFF;
+  }
+  &.even{
+    background: #F8F8FF;
+  }
+}
+
+.content{
+  text-align: center;
+}

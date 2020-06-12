@@ -1,9 +1,25 @@
-.tag-line{
-  color: black;
-}
+$primary-color: #F8F8FF ;
 
-.header-img{
-  width:100vw;
+header{
+  position: relative;
+  img{
+    width: 100vw;
+  }
+  p{
+    position: absolute;
+    font-family: 'Gurajada', serif;
+    top: 25vw;
+    font-size: 10vh;
+    left: 15vw;
+    color: white;
+    line-height: 8vh;
+  }
+  @media only screen and (max-width:900px){
+    p{
+      font-size: 5vh;
+      line-height: 4vh;
+    }
+  }
 }
 
 .about{
@@ -13,13 +29,20 @@
 .product{
   height:50vh;
   &.odd{
-    background: #FFFFFF;
+    background: #F8F8FF;
   }
   &.even{
-    background: #F8F8FF;
+    background: #FFFFFF;
   }
 }
 
 .content{
   text-align: center;
+}
+
+footer{
+  height: 25vh;
+  text-align: center;
+  background: $primary-color;
+  padding-top: 5vh;
 }

@@ -1,8 +1,19 @@
-.tag-line {
-  color: black; }
-
-.header-img {
-  width: 100vw; }
+header {
+  position: relative; }
+  header img {
+    width: 100vw; }
+  header p {
+    position: absolute;
+    font-family: 'Gurajada', serif;
+    top: 25vw;
+    font-size: 10vh;
+    left: 15vw;
+    color: white;
+    line-height: 8vh; }
+  @media only screen and (max-width: 900px) {
+    header p {
+      font-size: 5vh;
+      line-height: 4vh; } }
 
 .about {
   text-align: center; }
@@ -10,11 +21,17 @@
 .product {
   height: 50vh; }
   .product.odd {
-    background: #FFFFFF; }
-  .product.even {
     background: #F8F8FF; }
+  .product.even {
+    background: #FFFFFF; }
 
 .content {
   text-align: center; }
+
+footer {
+  height: 25vh;
+  text-align: center;
+  background: #F8F8FF;
+  padding-top: 5vh; }
 
 /*# sourceMappingURL=index.css.map */

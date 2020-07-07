@@ -50,4 +50,11 @@ footer {
 .imgsec {
   height: 40vh; }
 
+li {
+  text-align: left; }
+
+.skills {
+  display: flex;
+  justify-content: space-evenly; }
+
 /*# sourceMappingURL=index.css.map */

@@ -14,8 +14,20 @@ header{
     color: white;
     line-height: 8vh;
   }
-  @media only screen and (max-width:900px){
+  // tablet
+  @media only screen and (max-width:768px){
     p{
+      top:15vh;
+      left:10vw;
+      font-size: 7vh;
+      line-height: 4vh;
+    }
+  }
+  // mobile
+  @media only screen and (max-width:360px){
+    p{
+      top:10vh;
+      left:10vw;
       font-size: 5vh;
       line-height: 4vh;
     }
@@ -33,6 +45,9 @@ h1{
 section{
   padding-top: 5vh;
   padding-bottom: 5vh;
+  p{
+    padding-bottom: 5vh;
+  }
 }
 
 .product{
@@ -64,6 +79,9 @@ footer{
 
 .imgsec{
   height: 40vh;
+  @media only screen and (max-width:360px){
+    display:none;
+  }
 }
 
 li{

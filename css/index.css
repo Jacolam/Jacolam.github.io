@@ -55,7 +55,11 @@ footer {
   height: 25vh;
   text-align: center;
   background: #F8F8FF;
-  padding-top: 5vh; }
+  padding-top: 5vh;
+  position: relative; }
+  @media only screen and (max-width: 360px) {
+    footer {
+      margin-top: 15vh; } }
 
 .imgsec {
   height: 40vh; }

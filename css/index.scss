@@ -75,6 +75,11 @@ footer{
   text-align: center;
   background: $primary-color;
   padding-top: 5vh;
+  position: relative;
+
+  @media only screen and (max-width:360px){
+    margin-top: 15vh;
+  }
 }
 
 .imgsec{
